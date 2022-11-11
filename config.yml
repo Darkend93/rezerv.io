@@ -1,0 +1,9 @@
+APP:
+  SERVER:
+    PORT: 8080
+  DB:
+    USER: "postgres"
+    PASSWORD: "admin"
+    HOST: "localhost"
+    NAME: "private"
+    POST: "5432"
