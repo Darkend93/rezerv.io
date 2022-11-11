@@ -2,7 +2,7 @@ package repository
 
 import (
 	"github.com/google/uuid"
-	"rezerv.io/domain/entity"
+	"rezerv.io/core/domain/entity"
 )
 
 type Service interface {

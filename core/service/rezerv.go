@@ -5,8 +5,8 @@ import (
 	"log"
 
 	"github.com/google/uuid"
-	"rezerv.io/domain/contract"
-	"rezerv.io/usecase/repository"
+	"rezerv.io/core/domain/contract"
+	"rezerv.io/core/repository"
 )
 
 type rezerv struct {

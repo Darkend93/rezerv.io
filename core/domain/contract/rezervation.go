@@ -4,7 +4,7 @@ import (
 	"time"
 
 	"github.com/google/uuid"
-	"rezerv.io/domain/entity"
+	"rezerv.io/core/domain/entity"
 )
 
 type Rezervation struct {
