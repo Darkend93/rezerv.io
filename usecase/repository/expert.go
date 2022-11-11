@@ -5,7 +5,7 @@ import (
 	"rezerv.io/domain/entity"
 )
 
-type ExpertRepository interface {
+type Expert interface {
 	GetByID(ID uuid.UUID) (*entity.Expert, error)
 	GetAll() ([]*entity.Expert, error)
 	Create(expert *entity.Expert) (*entity.Expert, error)

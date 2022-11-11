@@ -5,7 +5,7 @@ import (
 	"rezerv.io/domain/entity"
 )
 
-type CustomerRepository interface {
+type Customer interface {
 	GetByID(ID uuid.UUID) (*entity.Customer, error)
 	GetAll() ([]*entity.Customer, error)
 	Create(customer *entity.Customer) (*entity.Customer, error)

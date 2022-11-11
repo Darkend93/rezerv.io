@@ -7,9 +7,9 @@ import (
 )
 
 type Rezerv struct {
-	ID        uuid.UUID
-	Customer  Customer
-	Date      time.Time
-	IsVisited bool
-	Service   Service
+	ID         uuid.UUID
+	CustomerID uuid.UUID
+	Date       time.Time
+	IsVisited  bool
+	Service    uuid.UUID
 }
